@@ -1,0 +1,235 @@
+.jumbotron {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    background-image: url(images/food.jpg);
+    box-shadow: 0px 4px 10px grey;
+}
+
+.card {
+    box-shadow: 0px 4px 10px grey;
+}
+
+#title-holder {
+    text-align: center;
+    background-color: black;
+}
+
+#ingredients-holder {
+    text-align: center;
+    margin: 15px;
+    border: solid 2px black;
+}
+
+#list-holder {
+    text-align: center;
+    margin: 15px;
+    border: solid 2px black;
+}
+
+#add-holder {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: crimson;
+}
+
+#button-holder {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#add-button {
+    margin: 10px;
+}
+
+#form-submit {
+    float: left;
+}
+
+#list {
+    
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+ul {
+    margin: 10px;
+}
+
+#list-button-holder {
+    background-color: black
+}
+
+.btn-success {
+    border: 0 solid;
+    cursor: pointer;
+    background-color: crimson;
+    border-radius: 1px;
+    box-shadow: inset 0 0 20px crimson;
+    outline: .015px solid;
+    outline-color:crimson;
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    margin: 10px;
+}
+
+.btn-success:hover{
+    border: 0px solid;
+    background-color: crimson;
+    border-radius: 1px;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 0px 0px 2px grey;
+    margin: 15px;
+}
+
+#add-button, #remove-button {
+    border: 0 solid;
+    cursor: pointer;
+    background-color: crimson;
+    border-radius: 1px;
+    box-shadow: inset 0 0 20px crimson;
+    outline: .015px solid;
+    outline-color:crimson;
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    margin: 10px;
+}
+
+#add-button, #remove-button:hover{
+    border: 0px solid;
+    background-color: crimson;
+    border-radius: 1px;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 0px 0px 2px grey; 
+}
+
+.btn-test {
+    padding: 15px;
+}
+
+.btn-light {
+    margin: 10px;
+    border: 0 solid;
+    cursor: pointer;
+    background-color: crimson;
+    border-radius: 1px;
+    color: white;
+    box-shadow: inset 0 0 20px crimson;
+    outline: .015px solid;
+    outline-color:crimson;
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-light:hover {
+    border: 0px solid;
+    background-color: crimson;
+    border-radius: 1px;
+    color: white;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 0px 0px 2px grey;
+}
+
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+    animation:  glow 3s infinite;
+    color :black;
+    background-image: url(images/cutting-board.jpg);
+  }
+
+  @keyframes glow {
+    0% {
+      text-shadow:  0 0 10px white;
+    }
+    
+    15% {
+      text-shadow: 2px 2px 10px rgba(255, 255, 255, 1),
+                   -2px -2px 10px rgba(255, 255, 255, 1);
+    }
+
+    30% {
+      text-shadow: 2px 2px 4px rgba(255, 255, 255, .7),
+                   -2px -2px 4px rgba(255, 255, 255, .7);
+    }
+
+    50% {
+      text-shadow: 20px 20px 50px rgba(255, 255, 255, .5),
+                   -20px -20px 50px rgba(255, 255, 255, .5);
+    }
+  }
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: crimson;
+}
+
+body {
+    background-image: url(images/cutting-board.jpg);
+}
+
+.recipeCard {
+    background-color: white;
+    border: 0px 1px 1px 1px solid;
+    border-radius: 20px;
+    max-width: 380px;
+    margin: 10px;
+}
+
+img {
+    max-width: 380px;
+    max-height: 200px;
+    border-radius: 10px
+}
+
+h3 {
+    text-align: center;
+    color: #696969;
+    background-color: navajowhite;
+    font-size: 25px;
+    font-family: garamond;
+    font-weight: bolder;
+}
+
+li {
+    list-style-type: none;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+col {
+    text-align: center;
+}
+
+#food-add {
+    text-align: center;
+    margin-top: 25.5px;
+}
+
+p {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
+    color: white;
+    outline-color: crimson;
+    outline-offset: 0px;
+    text-shadow: 3px 3px 5px crimson;
+    margin-top: 10px;
+}
