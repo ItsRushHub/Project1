@@ -10,4 +10,4 @@ Javascript
 JQuery
 
 
-https://itsrushhub.github.io/Project1/.
+https://itsrushhub.github.io/Project1/
