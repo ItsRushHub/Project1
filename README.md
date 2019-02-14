@@ -4,8 +4,11 @@ Meal Finder is an application that enables people to input ingredients they have
 
 This is the first project that I worked on. I mostly did alot of the CSS such as adding a click sound to the button and the top flare and I found the API key for the food recipes.
 
+
+Technologies:
 HTML
 CSS
+Bootstrap
 Javascript
 JQuery
 
